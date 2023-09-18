@@ -8,3 +8,5 @@ sudo apt install dirmngr
 sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com EF0F382A1A7B6500
 sudo apt update
 sudo apt upgrade
+
+sudo adduser student  #(name 1)
