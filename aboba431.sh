@@ -2,7 +2,7 @@
 cd ~
 mkdir Leocad && cd Leocad
 wget https://github.com/leozide/leocad/releases/download/v23.03/LeoCAD-Linux-23.03-x86_64.AppImage
-chmdo a+x  LeoCAD-Linux-23.03-x86_64.AppImage
+chmod a+x  LeoCAD-Linux-23.03-x86_64.AppImage
 cd ~
 mkdir Freecad && cd  Freecad
 wget https://github.com/FreeCAD/FreeCAD/releases/download/0.21.1/FreeCAD_0.21.1-Linux-x86_64.AppImage
