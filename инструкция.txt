@@ -10,3 +10,8 @@ sudo apt update
 sudo apt upgrade
 
 sudo adduser student  #(name 1)
+
+#копирование папок
+sudo   cp  -r  Leocad1/ Freecad1/ PABCWork.NET/   Pascal1/   /home/student/
+
+
