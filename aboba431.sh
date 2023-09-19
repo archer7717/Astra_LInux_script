@@ -12,14 +12,14 @@ mkdir Pascal && cd Pascal
 wget https://pascalabc.net/downloads/PascalABCNETLinux.zip
 unzip PascalABCNETLinux.zip
 
-apt install mono-complete
-sudo apt-get install gcc g++
-sudo apt-get install cmake
-sudo apt-get install python3
-sudo apt-get install zlibc zlib1g zlib1g-dev
-sudo apt-get install qt5-default qttools5-dev-tools libqt5webkit5-dev libqt5multimediawidgets5 libqt5network5 libqt5svg5-dev libqt5x11extras5-dev qtscript5-dev
-sudo apt-get install git-core
-sudo apt install wine
+apt install mono-complete -y
+sudo apt-get install gcc g++ -y
+sudo apt-get install cmake -y
+sudo apt-get install python3 -y
+sudo apt-get install zlibc zlib1g zlib1g-dev -y
+sudo apt-get install qt5-default qttools5-dev-tools libqt5webkit5-dev libqt5multimediawidgets5 libqt5network5 libqt5svg5-dev libqt5x11extras5-dev qtscript5-dev -y
+sudo apt-get install git-core -y
+sudo apt install wine -y
 cd ~
 cd /opt
 git clone https://git.niisi.ru/kumir/kumir2.git
