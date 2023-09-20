@@ -1,5 +1,5 @@
 #!/bin/bash
-if [ adduser student]
+if [ -d /home/student]
 then
  echo Пользователь уже существует
 else
