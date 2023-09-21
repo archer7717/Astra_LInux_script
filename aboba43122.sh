@@ -49,4 +49,4 @@ fi
 
 
 cd /home/astra
-sudo cp -r /Pascal /Freecad /Leocad /home/student
+sudo cp -r Pascal Freecad Leocad /home/student
