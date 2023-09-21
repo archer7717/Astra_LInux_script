@@ -46,11 +46,7 @@ echo "Католог kumir2  уже существует"
 else
 mkdir kumir2 && cd kumir2;cmake -DCMAKE_INSTALL_PREFIX=/usr -DUSE_QT=5 ..;sudo make;sudo make install
 fi
-if [ -d /home/student]
-then
- echo Пользователь уже существует
-else
-sudo adduser student
 
-fi
+
+cd /home/astra
 sudo cp -r /Pascal /Freecad /Leocad /home/student
