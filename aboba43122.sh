@@ -44,7 +44,7 @@ if [ -d  kumir2 ]
 then
 echo "Католог kumir2  уже существует"
 else
-mkdir kumir2 && cd kumir2;cmake -DCMAKE_INSTALL_PREFIX=/usr -DUSE_QT=5 ..;sudo make;sudo make install
+git clone https://git.niisi.ru/kumir/kumir2.git;cd kumir2;mkdir build && cd build;cmake -DCMAKE_INSTALL_PREFIX=/usr -DUSE_QT=5 ..;sudo make;sudo make install
 fi
 
 
