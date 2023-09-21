@@ -50,3 +50,5 @@ fi
 
 cd /home/astra
 sudo cp -r Pascal Freecad Leocad /home/student
+cd /opt 
+sudo cp -r kumir2 /home/student
