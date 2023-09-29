@@ -62,5 +62,5 @@ fi
 cd /home/astra
 sudo cp -r Pascal Freecad Leocad     /home/student 
 cd /opt 
-sudo cp pycharm-community-2023.2.1 /home/student
+sudo cp -r pycharm-community-2023.2.1 /home/student
 #sudo cp -r kumir2 /home/student
