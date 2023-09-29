@@ -1,5 +1,16 @@
 #!/bin/bash
 
+
+cd /home/astra
+if [ -d  Pycharm ]
+then
+echo "Католог Pycharm  уже существует"
+else
+mkdir Pycharm && cd Pycharm;wget https://www.jetbrains.com/ru-ru/pycharm/download/download-thanks.html?platform=linux&code=PCC;sudo tar -xzf pycharm-community-2023.2.1.tar.gz -C /opt;
+
+fi
+
+
 cd /home/astra
 if [ -d  Leocad ]
 then
@@ -49,6 +60,6 @@ fi
 
 
 cd /home/astra
-sudo cp -r Pascal Freecad Leocad /home/student
-cd /opt 
+sudo cp -r Pascal Freecad Leocad   Pycharm  /home/student 
+#cd /opt 
 #sudo cp -r kumir2 /home/student
