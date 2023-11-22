@@ -3,10 +3,10 @@
 
 
 #leocad
-sudo apt install leocad
+sudo apt install leocad -y
 
 #freecad
-sudo apt install freecad
+sudo apt install freecad -y
 
 
 cd /home/astra
@@ -24,7 +24,7 @@ sudo apt-get install gcc g++ -y
 sudo apt-get install cmake -y
 sudo apt-get install python3 -y
 sudo apt-get install zlibc zlib1g zlib1g-dev -y
-sudo apt-get install qt5-default qttools5-dev-tools libqt5webkit5-dev libqt5multimediawidgets5 libqt5network5 libqt5svg5-dev libqt5x11extras5-dev qtscript5-dev -y
+sudo apt-get install  qttools5-dev-tools libqt5webkit5-dev libqt5multimediawidgets5 libqt5network5 libqt5svg5-dev libqt5x11extras5-dev qtscript5-dev -y
 sudo apt-get install git-core -y
 sudo apt install wine -y
 
@@ -37,8 +37,4 @@ git clone https://git.niisi.ru/kumir/kumir2.git;cd kumir2;mkdir build && cd buil
 fi
 
 
-cd /home/astra
-sudo cp -r Pascal Freecad Leocad     /home/student 
-cd /opt 
-sudo cp -r pycharm-community-2023.2.1 /home/student
-#sudo cp -r kumir2 /home/student
+
