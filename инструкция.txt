@@ -7,7 +7,7 @@ sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com EF0F382A1A7B6500
 sudo apt update
 sudo apt upgrade
 
-sudo apt install leocad
+sudo apt install leocad;ldraw-parts
 
 sudo adduser student  #(name 1)
 
