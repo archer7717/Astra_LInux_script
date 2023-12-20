@@ -9,6 +9,6 @@ sudo apt upgrade
 
 sudo adduser student  #(name 1)
 
-#копирование папок
+
 
 
