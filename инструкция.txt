@@ -1,6 +1,7 @@
 sudo  nano /etc/apt/sources.list
 deb https://archive.debian.org/debian/ stretch main contrib non-free
-
+#ctrl-o сохранить файл
+#ctrl-x закрыть файл
 sudo apt install dirmngr
 
 sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com EF0F382A1A7B6500
