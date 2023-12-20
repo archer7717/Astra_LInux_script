@@ -1,5 +1,8 @@
 sudo  nano /etc/apt/sources.list
+#добавление репозитория
 deb https://archive.debian.org/debian/ stretch main contrib non-free
+
+
 #ctrl-o сохранить файл
 #ctrl-x закрыть файл
 sudo apt install dirmngr
@@ -8,9 +11,11 @@ sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com EF0F382A1A7B6500
 sudo apt update
 sudo apt upgrade
 
+#установка  leocad и библеотеки
 sudo apt install leocad;ldraw-parts
 
-sudo adduser student  #(name 1)
+#добавления пользователя без прав суперпользователя
+sudo adduser student  
 
 
 
