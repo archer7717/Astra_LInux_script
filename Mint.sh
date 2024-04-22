@@ -8,6 +8,10 @@ sudo apt install leocad -y
 #freecad
 sudo apt install freecad -y
 
+#python
+sudo apt install python3.11-full -y
+
+
 cd /home/astra
 
 apt install mono-complete -y
