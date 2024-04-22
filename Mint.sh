@@ -8,15 +8,6 @@ sudo apt install leocad -y
 #freecad
 sudo apt install freecad -y
 
-
-cd /home/astra
-if [ -d  Pascal ]
-then 
-echo "Католог  Pascal уже существует"
-else
-mkdir Pascal && cd  Pascal;wget https://pascalabc.net/downloads/PascalABCNETLinux.zip;unzip PascalABCNETLinux.zip
-
-fi
 cd /home/astra
 
 apt install mono-complete -y
