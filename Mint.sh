@@ -4,6 +4,7 @@
 
 #leocad
 sudo apt install leocad -y
+sudo apt install ldraw-parts -y
 
 #freecad
 sudo apt install freecad -y
